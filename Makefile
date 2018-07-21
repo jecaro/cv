@@ -2,17 +2,17 @@
 
 CC = xelatex
 EXAMPLES_DIR = examples
-RESUME_DIR = examples/resume
-CV_DIR = examples/cv
-RESUME_SRCS = $(shell find $(RESUME_DIR) -name '*.tex')
-CV_SRCS = $(shell find $(CV_DIR) -name '*.tex')
+RESUME_EXAMPLE_DIR = examples/resume
+CV_EXAMPLE_DIR = examples/cv
+RESUME_EXAMPLE_SRCS = $(shell find $(RESUME_DIR) -name '*.tex')
+CV_EXAMPLE_SRCS = $(shell find $(CV_DIR) -name '*.tex')
 
 examples: $(foreach x, coverletter cv resume, examples/$x.pdf)
 
-examples/resume.pdf: $(EXAMPLES_DIR)/resume.tex $(RESUME_SRCS)
+examples/resume.pdf: $(EXAMPLES_DIR)/resume.tex $(RESUME_EXAMPLE_SRCS)
 	$(CC) -output-directory=$(EXAMPLES_DIR) $<
 
-examples/cv.pdf: $(EXAMPLES_DIR)/cv.tex $(CV_SRCS)
+examples/cv.pdf: $(EXAMPLES_DIR)/cv.tex $(CV_EXAMPLE_SRCS)
 	$(CC) -output-directory=$(EXAMPLES_DIR) $<
 
 examples/coverletter.pdf: $(EXAMPLES_DIR)/coverletter.tex
