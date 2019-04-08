@@ -1,6 +1,7 @@
 .PHONY: examples
 
 CC = xelatex
+CC_OPTS = -interaction=nonstopmode -halt-on-error
 
 EXAMPLES_DIR = examples
 
@@ -15,18 +16,18 @@ CV_EXAMPLE_SRCS = $(shell find $(CV_DIR) -name '*.tex')
 RESUME_SRCS = $(shell find $(RESUME_DIR) -name '*.tex')
 
 resume/resume.pdf: $(RESUME_SRCS) $(AWESOME_SRCS)
-	$(CC) -output-directory=$(RESUME_DIR) resume/resume.tex
+	$(CC) $(CC_OPTS) -output-directory=$(RESUME_DIR) resume/resume.tex
 
 examples: $(foreach x, coverletter cv resume, examples/$x.pdf)
 
 examples/resume.pdf: $(EXAMPLES_DIR)/resume.tex $(RESUME_EXAMPLE_SRCS) $(AWESOME_SRCS)
-	$(CC) -output-directory=$(EXAMPLES_DIR) $<
+	$(CC) $(CC_OPTS) -output-directory=$(EXAMPLES_DIR) $<
 
 examples/cv.pdf: $(EXAMPLES_DIR)/cv.tex $(CV_EXAMPLE_SRCS) $(AWESOME_SRCS)
-	$(CC) -output-directory=$(EXAMPLES_DIR) $<
+	$(CC) $(CC_OPTS) -output-directory=$(EXAMPLES_DIR) $<
 
 examples/coverletter.pdf: $(EXAMPLES_DIR)/coverletter.tex $(AWESOME_SRCS)
-	$(CC) -output-directory=$(EXAMPLES_DIR) $<
+	$(CC) $(CC_OPTS) -output-directory=$(EXAMPLES_DIR) $<
 
 clean:
 	rm -rf $(EXAMPLES_DIR)/*.pdf $(RESUME_DIR)/*.pdf
