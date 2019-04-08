@@ -1,6 +1,13 @@
 sudo: required
-dist: trusty
-before_install:
-- sudo apt-get -qq update && sudo apt-get install -y --no-install-recommends texlive-full
+
+services:
+- docker
+
+arch:
+  packages:
+  - texlive-core
+  script:
+  - make
+
 script:
-- make 
+- "curl -s https://raw.githubusercontent.com/mikkeloscar/arch-travis/master/arch-travis.sh | bash"
