@@ -6,6 +6,7 @@ services:
 arch:
   packages:
   - texlive-core
+  - texlive-latexextra
   script:
   - make
 
