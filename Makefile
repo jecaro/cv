@@ -17,14 +17,7 @@ CV_EXAMPLE_SRCS = $(shell find $(CV_DIR) -name '*.tex')
 RESUME_FR_SRCS = $(shell find $(RESUME_FR_DIR) -name '*.tex')
 RESUME_EN_SRCS = $(shell find $(RESUME_EN_DIR) -name '*.tex')
 
-CVS = $(RESUME_FR_DIR)/jeancharles.quillet-fr.pdf $(RESUME_EN_DIR)/jeancharles.quillet-en.pdf
-
-out ?= ./output
-
-all: $(CVS)
-
-install: $(CVS)
-	install -D $? -t $(out)
+all: $(RESUME_FR_DIR)/jeancharles.quillet-fr.pdf $(RESUME_EN_DIR)/jeancharles.quillet-en.pdf
 
 $(RESUME_FR_DIR)/jeancharles.quillet-fr.pdf: $(RESUME_FR_SRCS) $(AWESOME_SRCS)
 	$(CC) $(CC_OPTS) -output-directory=$(@D) -jobname=$(basename $(@F)) $(RESUME_FR_DIR)/resume.tex
