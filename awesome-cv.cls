@@ -737,6 +737,8 @@
 \newcommand*{\cvskill}[2]{%
 	\skilltypestyle{#1} & \skillsetstyle{#2} \\
 }
+% Fix the spacing issue of the last line in cvskill
+\newcommand{\lastnewline}{\vadjust{\vspace{-2.5pt}}\newline}
 
 % Define an environment for cvitems(for cventry)
 \newenvironment{cvitems}{%
