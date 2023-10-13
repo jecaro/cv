@@ -10,7 +10,7 @@ CV_EXAMPLE_DIR = examples/cv
 RESUME_FR_DIR = resume-fr
 RESUME_EN_DIR = resume-en
 
-AWESOME_SRCS = awesome-cv.cls fontawesome.sty
+AWESOME_SRCS = awesome-cv.cls
 
 RESUME_EXAMPLE_SRCS = $(shell find $(RESUME_EXAMPLE_DIR) -name '*.tex')
 CV_EXAMPLE_SRCS = $(shell find $(CV_DIR) -name '*.tex')
