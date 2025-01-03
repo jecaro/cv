@@ -1,0 +1,30 @@
+\cvsection{Education}
+\begin{cvhonors}
+  \cvhonor
+    {DESS Multimedia and Information Technology}
+    {\lastnewline image synthesis and analysis, 3D geometry and rendering,
+    sound, video}
+    {Bordeaux university}
+    {2001 - 2002}
+  \cvhonor
+    {Master in computer science}
+    {image synthesis and analysis}
+    {Poitiers university}
+    {1999 - 2000}
+  \cvhonor
+    {B.S. in computer science}
+    {}
+    {Limoges university}
+    {1998 - 1999}
+  \cvhonor
+    {DEUG computer science and mathematics}
+    {}
+    {Limoges university}
+    {1996 - 1997}
+  \cvhonor
+    {Baccalauréat Science}
+    {}
+    {Lycée Jean Giraudoux, Châteauroux}
+    {1995 - 1996}
+    {}
+\end{cvhonors}

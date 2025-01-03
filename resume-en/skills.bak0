@@ -1,0 +1,32 @@
+\cvsection{Skills}
+\begin{cvskills}
+  \cvskill
+    {Main skills}
+ 	{
+		Architecture and software design \newline
+        Functional and object oriented programming \newline
+        Networking / Linux systems administration \newline
+        Geographic Information Systems \lastnewline
+        Geometry and 3D rendering
+	}
+  \cvskill
+    {Programming}
+ 	{Haskell, Rust, Elm, C/C++, Python, Bash}
+  \cvskill
+	{Development tools}
+	{Nix, Make, Git, Jenkins, Ansible, Docker}
+  \cvskill
+	{Scientific tools}
+	{Matlab, Octave, gnuplot}
+  \cvskill
+    {Operating systems}
+ 	{Windows, Linux (NixOS, ArchLinux, Ubuntu, CentOS, Debian)}
+  \cvskill
+    {Languages}
+ 	{
+        French: mother tongue,
+		English: fluent,
+		Spanish: beginner
+	}
+\end{cvskills}
+

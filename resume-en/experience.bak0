@@ -1,0 +1,128 @@
+\cvsection{Experience}
+\begin{cventries}
+  \cventry
+    {Backend developer}
+    {\href{https://www.tiko.fr/}{Tiko}}
+    {Zürich, Switzerland / Remote}
+    {Since 01/2024}
+    {
+      \begin{cvitems}
+        \item {Interface between IoT devices and backend services}
+        \item {Technical environment: Linux, Haskell, nix, K8s, PostgreSQL, 
+            MySQL, Redis, Kafka, MQTT}
+      \end{cvitems}
+    }
+
+  \cventry
+    {Cloud software developer}
+    {\href{https://www.linkedin.com/company/secucloud/}{Secucloud}}
+    {Hamburg, Germany / Remote}
+    {11/2020 - 11/2023}
+    {
+      \begin{cvitems}
+        \item {Developed cloud network security software}
+        \item {Technical environment: Linux, Haskell, JavaScript, nix,
+            MySQL, Ansible, Redis, Clickhouse}
+      \end{cvitems}
+    }
+
+  \cventry
+    {Functional programming teacher}
+    {\href{https://www.epitech.eu/}{Epitech}}
+    {Rennes, France}
+    {09/2021 - 06/2023 (part time)}
+    {
+      \begin{cvitems}
+          \item {Supported the students with their Haskell projects
+              (Arithmetic expression evaluator, Lisp interpretor, image
+              compression algorithm~...)}
+          \item {Technical environment: Linux, Haskell, nix}
+      \end{cvitems}
+    }
+
+  \cventry
+    {Software developer for an IT services company}
+    {\href{https://www.scalian.com/}{Scalian}}
+    {Rennes, France}
+    {04/2007 - 11/2020}
+    {
+      \begin{cvitems}
+        \item {Developed simulation software in the department Simulation, HPC
+            and Virtual Reality}
+        \item {Architecture and technical lead}
+        \item {Technical documentation writing}
+        \item {Clients: french MoD, ONERA, CEA, CNES, IRSN}
+        \item {Technical environment: Windows/Linux, C++, Python, Matlab, Qt,
+            openscenegraph, gdal}
+      \end{cvitems}
+    }
+
+  \cventry
+    {Research engineer}
+    {\href{https://www.labri.fr/}{LaBRI} Analysis and indexing video team
+    (University lab)} {Bordeaux, France}
+    {07/2006 – 08/2006}
+    {
+      \begin{cvitems}
+        \item {Prepared the video indexing contests TRECVID and ARGOS}
+        \item {System administration}
+        \item {Technical environment: Linux, C/C++, XML, Perl, Bash}
+      \end{cvitems}
+    }
+
+  \cventry
+    {Research engineer}
+    {\href{https://www.inria.fr/}{INRIA} IPARLA team (French IT lab)}
+    {Bordeaux, France}
+    {09/2004 – 04/2006}
+    {
+      \begin{cvitems}
+        \item {Visualization of city models on mobile devices though
+            non-photorealistic rendering}
+        \item {Wrote and presented a scientific paper to the Web3D 2006
+            conference in Washington}
+        \item {Technical environment: Linux, Windows, Windows Mobile, C/C++,
+            Bash, Perl, VRML97, X3D}
+      \end{cvitems}
+    }
+
+  \cventry
+    {Software developer}
+    {\href{https://www.keyghost.com/}{Keyghost}}
+    {Christchurch, New-Zealand}
+    {04/2003 - 12/2003}
+    {
+      \begin{cvitems}
+        \item {Developed security software}
+		\item {Technical environment: Windows, Delphi, C/C++, Octave}
+      \end{cvitems}
+    }
+
+  \cventry
+    {Internship followed by a software engineer contract}
+    {Visualpix}
+    {Bordeaux, France}
+    {04/2002 - 12/2002}
+    {
+      \begin{cvitems}
+        \item {Improved a video compression codec}
+		\item {Technical environment: Linux, C}
+      \end{cvitems}
+    }
+
+  \cventry
+    {Backend developer, system administrator}
+    {Glisshouse}
+    {Marseille, France}
+    {07/2000 - 03/2001}
+    {
+      \begin{cvitems}
+        \item {Web: Maintained an online shop, developed a CMS}
+        \item {System administration: Installed, setup and maintained the LAN
+            (router, DNS, firewall, proxy, backup management, file server,
+            print server)}
+		\item {Technical environment: Linux, Php, MySQL, Apache, Samba, cron}
+      \end{cvitems}
+    }
+
+\end{cventries}
