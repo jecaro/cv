@@ -1,0 +1,47 @@
+There are unresolved conflicts at these paths:
+README.md    2-sided conflict
+New conflicts appeared in these commits:
+  rppokuzx 59eac858 master* | (conflict) Bump to nixos-24.11
+  qpztwrzk 26c2605b (conflict) Update .gitignore
+  rrxqpwxm 3610d037 (conflict) Add missing skills
+  twkkozsu 6ecbe092 (conflict) Add tiko experience
+  lrmxnysk 3b0484b1 (conflict) Bump flake
+  ztuzxyxl 20c47541 (conflict) update
+  nvnuzzln e3046d5a (conflict) flakify the project
+  wszrqwrw 799165a6 (conflict) fix spacing issue in br in tables
+  ppronkyx cd107a8b (conflict) add Epitech experience
+  rnopqkxt cf62540b (conflict) set the correct address
+  uoluqslo 7c76c6de (conflict) fix spacing in cvhonors
+  rlzxwzxn 32a8011a (conflict) fix various issues after rebasing the repo
+  umylsmot 1c8c8136 (conflict) add CH in tech stack
+  kwvqukoy fb982e6c (conflict) fix typo
+  kmsspnsm f4509cfe (conflict) replace the derivation for a simpler command
+  qxtvnnks 0649cffb (conflict) add current experience
+  trkmztsv 84a45ac5 (conflict) switch to github actions
+  pyqnusqk 647f117a (conflict) nix the project
+  yxxkrrrs ed498d5a (conflict) add install target
+  xqyponpw 7d04cc55 (conflict) Delete pdf to make CI do actual work
+  lxzwykkz 7fcb60d1 (conflict) Fix path to include files
+  yytvolsv 4339cb80 (conflict) Fix typo
+  pzukzryp d24c5836 (conflict) Update skills
+  wqpmyttp ab3f6d92 (conflict) Add mention of FP in skills
+  svnxoslm 075bef55 (conflict) Add minor changes
+  tqzskxur 853e64fa (conflict) Update formatting
+  kkwmuzun a7745c6c (conflict) Update links
+  qquspwwl 96a0cfbf (conflict) Translate in english
+  lxrxvwzu cd6bfa51 (conflict) Create basic en squeleton from the fr version
+  osnyzzzx 51239459 (conflict) Rename french resume
+  yyxtmvpq ca20cca9 (conflict) Move resume directory to resume-fr
+  onpukmms 4ca94c96 (conflict) Replace the arch keyword with archlinux
+  pqtrwsyy 5ca59ded (conflict) Update badges path
+  ztolyzkw 78f769f1 (conflict) Add linkedin username
+  mlpxkkzq ecb85abb (conflict) Minor changes
+  pynozpzz e84dd2e5 (conflict) Add link to the pdf
+  sxvqmzyp 627a2c3e (conflict) Add actual pdf
+  ywypyosu 2266a0e1 (conflict) Add CI badge
+To resolve the conflicts, start by updating to the first one:
+  jj new ywypyosu
+Then use `jj resolve`, or edit the conflict markers in the file directly.
+Once the conflicts are resolved, you may want to inspect the result with `jj diff`.
+Then run `jj squash` to move the resolution into the conflicted commit.
+
