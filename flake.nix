@@ -18,11 +18,11 @@
           make clean all
         '';
 
-        installPhase= ''
+        installPhase = ''
           mkdir $out
           cp resume-fr/jeancharles.quillet-fr.pdf $out
           cp resume-en/jeancharles.quillet-en.pdf $out
-          '';
+        '';
       };
     };
 }
