@@ -8,9 +8,11 @@
     stroke: none,
     align: (left, left, right),
 
-    [2001 - 2002], [*DESS Multimedia and Information Technology* ], [*Bordeaux university*],
-
-    [], table.cell(colspan: 2)[image synthesis and analysis, 3D geometry and rendering, sound, video],
+    [2001 - 2002],
+    [*DESS Multimedia and Information Technology*  \
+      image synthesis and analysis, 3D geometry and rendering, sound, video
+    ],
+    [*Bordeaux university*],
 
     [1999 - 2000], [*Master in computer science* image synthesis and analysis], [*Poitiers university*],
     [1998 - 1999], [*B.S. in computer science*], [*Limoges university*],

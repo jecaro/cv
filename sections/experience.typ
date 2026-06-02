@@ -87,6 +87,8 @@
     gdal
 ]
 
+#pagebreak()
+
 #resume-entry(
   title: "LaBRI: Analysis and indexing video team (University lab)",
   title-link: "https://www.labri.fr/",

@@ -1,5 +1,7 @@
 #import "@preview/modern-cv:0.10.0": *
 
+#show text: set text(size: 0.95em)
+
 #show: resume.with(
   author: (
     firstname: "Jean-Charles",
@@ -38,7 +40,7 @@
   show-footer: false,
   show-address-icon: false,
   paper-size: "a4",
-  contact-items-separator: box[#h(4pt)#text("|")#h(4pt)],
+  contact-items-separator: h(3pt) + "•" + h(3pt),
 )
 
 #include "sections/summary.typ"
