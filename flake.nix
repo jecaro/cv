@@ -1,27 +1,43 @@
 {
-  inputs.nixpkgs.url = "github:nixos/nixpkgs/nixos-25.11";
+  inputs.nixpkgs.url = "github:nixos/nixpkgs/nixos-26.05";
+
   outputs = { nixpkgs, ... }:
     let
       pkgs = nixpkgs.legacyPackages.x86_64-linux;
+
+      typst = pkgs.typst.withPackages (p: [ p.modern-cv ]);
+
+      fontsConf = pkgs.makeFontsConf {
+        fontDirectories = [
+          pkgs.font-awesome
+          pkgs.source-sans
+          pkgs.source-sans-pro
+          pkgs.roboto
+        ];
+      };
+
     in
     {
       packages.x86_64-linux.default = pkgs.stdenv.mkDerivation {
-        name = "jeancharles-quillet-cv";
+        name = "jeancharles.quillet-en";
         src = ./.;
 
         buildInputs = [
-          pkgs.gnumake
-          pkgs.texlive.combined.scheme-full
+          pkgs.tinymist
+          pkgs.typstyle
+          typst
         ];
 
         buildPhase = ''
-          make clean all
+          typst compile jeancharles.quillet-en.typ
         '';
 
         installPhase = ''
           mkdir $out
-          cp resume-en/jeancharles.quillet-en.pdf $out
+          cp jeancharles.quillet-en.pdf $out
         '';
+
+        FONTCONFIG_FILE = "${fontsConf}";
       };
     };
 }
