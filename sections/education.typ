@@ -14,7 +14,7 @@
     ],
     [*Bordeaux university*],
 
-    [1999 - 2000], [*Master in computer science* image synthesis and analysis], [*Poitiers university*],
+    [1999 - 2000], [*Master in computer science*, image synthesis and analysis], [*Poitiers university*],
     [1998 - 1999], [*B.S. in computer science*], [*Limoges university*],
     [1996 - 1997], [*DEUG computer science and mathematics*], [*Limoges university*],
     [1995 - 1996], [*Baccalauréat Science*], [*Lycée Jean Giraudoux, Châteauroux*],

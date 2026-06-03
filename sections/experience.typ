@@ -32,7 +32,7 @@
     monitoring, logging, and performance insights
   - Participated in on-call rotation for production monitoring and incident
     handling
-  - Technical stack: Linux, Haskell, C++, Java, nix, Kubernetes, PostgreSQL,
+  - Technical stack: Linux, Haskell, C++, Java, Nix, Kubernetes, PostgreSQL,
     MySQL, Redis, Kafka, MQTT, OpenTelemetry
 ]
 
@@ -50,7 +50,7 @@
   - Implemented an Active Directory connector for seamless synchronization of
     users and groups
   - Optimized network proxy performance, increasing throughput by 50%
-  - Technical stack: Linux, Haskell, TypeScript, nix, MySQL, Ansible,
+  - Technical stack: Linux, Haskell, TypeScript, Nix, MySQL, Ansible,
     Redis, Clickhouse
 ]
 
@@ -112,7 +112,7 @@
 )
 
 #resume-item[
-  - Visualization of city models on mobile devices though non-photorealistic
+  - Visualization of city models on mobile devices through non-photorealistic
     rendering
   - Wrote and presented a scientific paper to the Web3D 2006 conference
   - Technical stack: Linux, Windows, Windows Mobile, C/C++, Bash, Perl, VRML97,
@@ -122,7 +122,7 @@
 #resume-entry(
   title: "Keyghost",
   title-link: "https://www.keyghost.com/",
-  location: "Christchurch, New-Zealand",
+  location: "Christchurch, New Zealand",
   date: "04/2003 - 12/2003",
   description: "Software developer",
 )
@@ -155,7 +155,7 @@
 
 #resume-item[
   - Web: Maintained an online shop, developed a CMS
-  - System administration: Installed, setup and maintained the LAN
+  - System administration: Installed, set up and maintained the LAN
   - Technical stack: Linux, Php, MySQL, Apache, Samba, cron
 ]
 

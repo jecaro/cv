@@ -30,7 +30,7 @@
     [*Tools*],
     [
       Git,
-      nix,
+      Nix,
       PostgreSQL,
       MySQL,
       Redis,
