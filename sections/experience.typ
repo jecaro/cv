@@ -6,7 +6,7 @@
   title: "Obsidian Systems",
   title-link: "https://obsidian.systems/",
   location: "New York, USA / Remote",
-  date: "Since 01/2026",
+  date: "01/2026 - 06/2026",
   description: "Software engineer",
 )
 
