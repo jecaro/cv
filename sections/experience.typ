@@ -3,6 +3,19 @@
 = Experience
 
 #resume-entry(
+  title: "CircuitHub",
+  title-link: "https://circuithub.com/",
+  location: "London, UK / Remote",
+  date: "08/2026 - Present",
+  description: "Software engineer",
+)
+
+#resume-item[
+  - Working on a software platform for PCB manufacturing and assembly
+  - Technical stack: Linux, Haskell, Nix, Docker, PostgresSQL, Nomad
+]
+
+#resume-entry(
   title: "Obsidian Systems",
   title-link: "https://obsidian.systems/",
   location: "New York, USA / Remote",
@@ -67,6 +80,8 @@
   - Technical stack: Linux, Haskell, nix
 ]
 
+#pagebreak()
+
 #resume-entry(
   title: "Scalian",
   title-link: "https://www.scalian.com/",
@@ -86,8 +101,6 @@
   - Technical stack: Windows/Linux, C++, Python, Matlab, Qt, openscenegraph,
     gdal
 ]
-
-#pagebreak()
 
 #resume-entry(
   title: "LaBRI: Analysis and indexing video team (University lab)",
